@@ -1,7 +1,9 @@
 {
     "name": "dartunian/yii2-sharexsrv",
+    "type": "yii2-extension",
+    "minimum-stability": "dev",
     "description": "ShareX Server for Yii2",
-    "keywords": ["log","logging"],
+    "keywords": ["sharex","server"],
     "homepage": "https://github.com/dartunian/yii2-sharexsrv",
     "license": "GPL-3.0",
     "authors": [
@@ -32,8 +34,8 @@
         "php-ffmpeg/php-ffmpeg": "*"
     },
     "autoload": {
-        "psr-0": {
-            "Monolog": "src"
+        "psr-4": {
+            "dartunian\\sharexsrv\\": ""
         }
     }
 }
